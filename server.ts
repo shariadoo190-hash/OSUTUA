@@ -246,8 +246,16 @@ ${contextInfo ? JSON.stringify(contextInfo) : 'Osutua Wines & Spirits, Ngong Roa
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
+  const server = app.listen(PORT, '0.0.0.0', () => {
     console.log(`[Osutua POS] Server running on http://0.0.0.0:${PORT}`);
+  });
+
+  server.on('error', (err: any) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(`[Osutua POS] Port ${PORT} is already in use. Try setting PORT=3001 in .env or kill the process on port ${PORT}.`);
+    } else {
+      console.error('[Osutua POS] Server error:', err);
+    }
   });
 }
 

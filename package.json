@@ -1,10 +1,12 @@
 {
-  "name": "react-example",
+  "name": "osutua-pos-system",
+  "version": "1.0.0",
+  "description": "Point of Sale & Real-Time Inventory Control System for Osutua Wines and Spirits",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
+    "dev:ui": "vite --port 3000",
     "start": "tsx server.ts",
     "build": "vite build",
     "preview": "vite preview",
@@ -28,7 +30,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.28.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",
