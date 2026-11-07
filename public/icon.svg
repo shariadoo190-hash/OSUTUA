@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#18181b"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#d97706" stroke-width="6" opacity="0.4"/>
+  <path d="M256 120 C 230 120, 205 145, 205 180 C 205 220, 240 260, 248 275 L 248 340 L 220 340 C 210 340, 200 350, 200 360 L 312 360 C 312 350, 302 340, 292 340 L 264 340 L 264 275 C 272 260, 307 220, 307 180 C 307 145, 282 120, 256 120 Z" fill="none" stroke="#f59e0b" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M214 185 Q 256 210 298 185" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M225 210 Q 256 230 287 210" fill="none" stroke="#fbbf24" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="700" fill="#fef3c7" text-anchor="middle" letter-spacing="4">OSUTUA</text>
+  <text x="256" y="448" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#d97706" text-anchor="middle" letter-spacing="6">WINES &amp; SPIRITS</text>
+</svg>

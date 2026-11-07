@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Osutua Wines & Spirits POS",
+  "short_name": "Osutua POS",
+  "description": "Point of Sale & Inventory Management System for Osutua Wines and Spirits with offline synchronization and stock management.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#18181b",
+  "theme_color": "#18181b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

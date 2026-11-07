@@ -1,0 +1,6 @@
+{
+  "name": "Osutua Wines & Spirits POS",
+  "description": "Point of Sale & Inventory Management System for Osutua Wines and Spirits with offline synchronization, stock tracking, and financial analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

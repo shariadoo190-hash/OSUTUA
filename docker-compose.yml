@@ -1,0 +1,16 @@
+services:
+  pos-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: osutua-pos
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - ALERT_EMAIL=shariadoo190@gmail.com
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - ./data:/app/data
